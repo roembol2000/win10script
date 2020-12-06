@@ -33,7 +33,7 @@ $tweaks = @(
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	"Install7Zip",
 	"InstallNotepadplusplus",
-	"InstallIrfanview",
+# 	"InstallIrfanview",
 	"InstallVLC",
 	"InstallAdobe",
 	"InstallBrave",
@@ -45,7 +45,7 @@ $tweaks = @(
 	### Privacy Tweaks ###
 	"DisableTelemetry",             # "EnableTelemetry",
 	"DisableWiFiSense",             # "EnableWiFiSense",
-	"DisableSmartScreen",         # "EnableSmartScreen",
+	"EnableSmartScreen",         # "DisableSmartScreen",
 	"DisableWebSearch",             # "EnableWebSearch",
 	"DisableAppSuggestions",        # "EnableAppSuggestions",
 	"DisableActivityHistory",       # "EnableActivityHistory",
@@ -62,16 +62,16 @@ $tweaks = @(
 	"DisableWAPPush",               # "EnableWAPPush",
 
 	### Security Tweaks ###
-	"SetUACLow",                  # "SetUACHigh",
+	"SetUACHigh",                  # "SetUACLow",
 	# "EnableSharingMappedDrives",  # "DisableSharingMappedDrives",
 	# "DisableAdminShares",           # "EnableAdminShares",
-	"DisableSMB1",                # "EnableSMB1",
+	"EnableSMB1",                # "DisableSMB1",
 	# "DisableSMBServer",           # "EnableSMBServer",
 	# "DisableLLMNR",               # "EnableLLMNR",
 	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
 	"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
-	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
-	"DisableCtrldFolderAccess",	# "EnableCtrldFolderAccess",
+	"EnableNetDevicesAutoInst",  # "DisableNetDevicesAutoInst",
+	"EnableCtrldFolderAccess",	# "DisableCtrldFolderAccess",
 	"EnableFirewall",
 	"EnableDefender",
 	"EnableDefenderCloud",
@@ -84,20 +84,20 @@ $tweaks = @(
 
 	### Service Tweaks ###
 	"DisableUpdateMSRT",          # "EnableUpdateMSRT",
-	"DisableUpdateDriver",        # "EnableUpdateDriver",
+	"EnableUpdateDriver",        # "DisableUpdateDriver",
 	"DisableUpdateRestart",         # "EnableUpdateRestart",
 	"DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
 	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
-	"EnableRemoteDesktop",          # "DisableRemoteDesktop",
-	"DisableAutoplay",              # "EnableAutoplay",
+	"DisableRemoteDesktop",          # "EnableRemoteDesktop",
+	"EnableAutoplay",              # "DisableAutoplay",
 	"DisableAutorun",               # "EnableAutorun",
 	"DisableStorageSense",        # "EnableStorageSense",
 	"DisableDefragmentation",     # "EnableDefragmentation",
 	"DisableSuperfetch",          # "EnableSuperfetch",
 	"EnableIndexing",
 	"SetBIOSTimeUTC",             # "SetBIOSTimeLocal",
-	"DisableHibernation",		# "EnableHibernation",          # 
+	"EnableHibernation",		# "DisableHibernation",          # 
 	"EnableSleepButton",		# "DisableSleepButton",         
 	"DisableSleepTimeout",        # "EnableSleepTimeout",
 	# "DisableFastStartup",         # "EnableFastStartup",
