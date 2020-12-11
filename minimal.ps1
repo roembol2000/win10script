@@ -112,19 +112,19 @@ $tweaks = @(
 	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
 	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
 	"DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
-	"HideTaskbarSearch",
-	#"ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
-	"HideTaskView",                 # "ShowTaskView",
+	"ShowTaskbarSearchIcon",
+	#"ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",    # "HideTaskbarSearch"
+	"ShowTaskView",                 # "HideTaskView",
 	# "ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
 	# "SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever",     # "SetTaskbarCombineAlways",
 	"HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
-	"ShowTrayIcons",                # "HideTrayIcons",
+	"HideTrayIcons",                # "ShowTrayIcons",
 	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
 	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
 	# "SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
 	# "SetVisualFXPerformance",     # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
-	"EnableNumlock",             	# "DisableNumlock",
+	"DisableNumlock",             	# "EnableNumlock",
 	"EnableDarkMode",				# "DisableDarkMode",
 	"Stop-EdgePDF",
 
@@ -133,7 +133,7 @@ $tweaks = @(
 	"HideHiddenFiles",
 	"HideSyncNotifications"         # "ShowSyncNotifications",
 	"HideRecentShortcuts",          # "ShowRecentShortcuts",
-	"SetExplorerThisPC",            # "SetExplorerQuickAccess",
+	"SetExplorerQuickAccess",            # "SetExplorerThisPC",
 	"HideThisPCFromDesktop",	# "ShowThisPCOnDesktop",
 	# "ShowUserFolderOnDesktop",    # "HideUserFolderFromDesktop",
 	# "HideDesktopFromThisPC",        # "ShowDesktopInThisPC",
@@ -146,8 +146,8 @@ $tweaks = @(
 	"HideMusicFromExplorer",      # "ShowMusicInExplorer",
 	# "HidePicturesFromThisPC",       # "ShowPicturesInThisPC",
 	# "HidePicturesFromExplorer",   # "ShowPicturesInExplorer",
-	"HideVideosFromThisPC",         # "ShowVideosInThisPC",
-	"HideVideosFromExplorer",     # "ShowVideosInExplorer",
+	"ShowVideosFromThisPC",         # "HideVideosInThisPC",
+	"ShowVideosFromExplorer",     # "HideVideosInExplorer",
 	"Hide3DObjectsFromThisPC",      # "Show3DObjectsInThisPC",
 	"Hide3DObjectsFromExplorer",  # "Show3DObjectsInExplorer",
 	# "DisableThumbnails",          # "EnableThumbnails",
@@ -2601,8 +2601,8 @@ Function DebloatAll {
         "Microsoft.Print3D"
         "Microsoft.SkypeApp"
         "Microsoft.StorePurchaseApp"
-        "Microsoft.Whiteboard"
-        "Microsoft.WindowsAlarms"
+#         "Microsoft.Whiteboard"
+#         "Microsoft.WindowsAlarms"
         "microsoft.windowscommunicationsapps"
         "Microsoft.WindowsFeedbackHub"
         "Microsoft.WindowsMaps"
